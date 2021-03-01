@@ -1,4 +1,5 @@
 # WC3 - chatbot
+![runthrough](./images/runthrough.gif)
 
 Het doel van dit werkcollege is het schrijven van een kleine chatapplicatie, via een JSON file. 
 
