@@ -1,0 +1,75 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: #0d0d0d;
+}
+main {
+  margin: auto;
+  display: flex;
+}
+#container {
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+#chatBox {
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  color: #aaa;
+}
+.chatMessage {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #eee;
+  padding: 10px 20px;
+  float: left;
+  display: block;
+  margin-bottom: 10px;
+}
+.messageInfoHeader > span {
+  font-size:  0.8em;
+  text-align: right;
+  color: #aaa;
+  font-style: italic;
+}
+.user {
+  float: left;
+}
+.date {
+  float: right;
+}
+.chatMessage > p {
+  width: 100%;
+  float: left;
+  display: block;
+}
+
+input {
+  height: 30px;
+  box-sizing: border-box;
+  float: left;
+  background: #fff;
+  border: 1px solid #0d0d0d;
+  margin: 5px;
+  border-radius: 2px;
+}
+input[type=text] {
+  width: calc(70% - 10px);
+}
+input[type=submit] {
+  padding: 0px 20px;
+  line-height: 30px;
+  box-sizing: border-box;
+  width: calc(30% - 10px);
+}
+@media only screen and (min-width: 700px) {
+  body {
+    padding: 30px 50px;
+  }
+}
