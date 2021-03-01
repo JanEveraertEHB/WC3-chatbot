@@ -1,11 +1,11 @@
 # WC3 - chatbot
 ![runthrough](./images/runthrough.gif)
 
-Het doel van dit werkcollege is het schrijven van een kleine chatapplicatie, via een JSON file. 
+Het doel van dit werkcollege is het schrijven van een kleine chat applicatie, via een JSON file. 
 
 ## stappen
 
-1. Je zal antuurlijk moeten beginnen met het opvangen van de input van de user. zorg voor een eventlistener die een form submit opvangt
+1. Je zal natuurlijk moeten beginnen met het opvangen van de input van de user. zorg voor een eventlistener die een form submit opvangt
 1. Hierna kan je het ingestuurde bericht toevoegen aan de JSON
 1. Na het toevoegen van een bericht moet je dit natuurlijk weergeven. Zorg dat je dit pas doet na toevoeging.
 1. Indien je vorige stappen hebt afgerond, kan je beginnen aan het implementeren van een uiterst simpele chatbot
