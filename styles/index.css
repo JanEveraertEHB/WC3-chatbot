@@ -50,6 +50,13 @@ main {
   display: block;
 }
 
+.botResponseContainer {
+  padding: 5px;
+  box-sizing: border-box;
+  font-style: italic;
+  color: #aaa;
+}
+
 input {
   height: 30px;
   box-sizing: border-box;

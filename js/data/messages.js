@@ -2,12 +2,13 @@
 
 export default {
     "messages": [
-        
+
     ],
-    "botresponses": [
+    "responses": [
         {
             "trigger": "hi",
-            "response": "Hello!" 
+            "response": "Hello!"
         }
-    ]
+    ],
+    "actions": []
 };
